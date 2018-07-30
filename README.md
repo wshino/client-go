@@ -1,6 +1,6 @@
 # client-go for local Docker
 
-##init
+## init
 
 ```bash
 $ docker run --rm --name ethereum-node \ 
@@ -9,7 +9,7 @@ $ docker run --rm --name ethereum-node \
 ethereum/client-go init /opt/genesis.json
 ```
 
-##run
+## run
 
 ```bash
 $ docker run --rm --name ethereum-node \
@@ -20,7 +20,7 @@ $ docker run --rm --name ethereum-node \
 --rpccorsdomain "*" --rpcapi personal,web3,eth
 ```
 
-##javascript console 
+## javascript console 
 
 ```bash
 $ geth attach http://localhost:8545
